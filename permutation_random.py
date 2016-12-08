@@ -1,8 +1,10 @@
 import random 
+import matplotlib.pyplot as plt
+import numpy as np
 
-n = 1000
+n = 500
 L = range(n)
-
+no_trials = 10000
 
 def random_permutation(L):
 	LL = list(L)
@@ -21,7 +23,6 @@ def orbit(perm, k):
 	return orb
 
 lengths = []
-no_trials = 1000
 for k in range(no_trials):
 	P = random_permutation(L)
 	l = len(orbit(P,0))
@@ -30,3 +31,12 @@ for k in range(no_trials):
 print sum(lengths)/float(len(lengths))
 print min(lengths)
 print max(lengths)
+
+plt.hist(lengths, bins=10)
+plt.show()
+
+'''
+Plots a histogram of the lengths of the orbit of 0 under
+no_trials random permutations. It seems to be uniformly
+distributed.
+'''
