@@ -14,10 +14,10 @@ def orbit(perm, k):
 	Orbit of k under perm.
 	'''
 	orb = [k]
-	im = perm.index(k)
+	im = perm[k]
 	while (im != k):
 		orb.append(im)
-		im = perm.index(im)
+		im = perm[im]
 	return orb
 
 lengths = []
