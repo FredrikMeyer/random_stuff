@@ -1,0 +1,566 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"edge",
+				"edgeDists"
+			],
+			[
+				"edg",
+				"edgeDists"
+			],
+			[
+				"shor",
+				"shortestPath"
+			],
+			[
+				"random",
+				"randomVertex"
+			],
+			[
+				"min",
+				"minCut"
+			],
+			[
+				"rando",
+				"randomContract"
+			],
+			[
+				"ra",
+				"randomContract"
+			],
+			[
+				"rand",
+				"randomContract"
+			],
+			[
+				"contrac",
+				"contractEdge"
+			],
+			[
+				"with",
+				"withDupes"
+			],
+			[
+				"list",
+				"listOfEdges"
+			],
+			[
+				"re",
+				"rselectRec"
+			],
+			[
+				"piv",
+				"pivPos"
+			],
+			[
+				"quickso",
+				"quicksortCountComps"
+			],
+			[
+				"pi",
+				"pivIndex"
+			],
+			[
+				"test",
+				"testTimes"
+			],
+			[
+				"cou",
+				"mergeAndCountSplitInv"
+			],
+			[
+				"no",
+				"noReactions"
+			],
+			[
+				"totl",
+				"totalCorrectTime"
+			],
+			[
+				"total",
+				"totalTime"
+			],
+			[
+				"draw",
+				"drawFigure"
+			],
+			[
+				"time",
+				"timeUsed"
+			],
+			[
+				"get",
+				"get_ticks"
+			],
+			[
+				"tot",
+				"totalCorrectTime"
+			],
+			[
+				"tota",
+				"totalScore"
+			],
+			[
+				"key",
+				"keyPressed"
+			],
+			[
+				"rac",
+				"reactionLimit"
+			],
+			[
+				"reac",
+				"reactionLimit"
+			],
+			[
+				"circle",
+				"circleProb"
+			],
+			[
+				"all",
+				"allPossibleCombs"
+			],
+			[
+				"repl",
+				"replaced"
+			],
+			[
+				"is",
+				"isPrime"
+			],
+			[
+				"repla",
+				"replaceDigit"
+			],
+			[
+				"number",
+				"numberToStr"
+			],
+			[
+				"swi",
+				"switchRows"
+			],
+			[
+				"lengt",
+				"lengthFirstRow"
+			],
+			[
+				"hook",
+				"\\hookrightarrow	latex-mathsymbols"
+			],
+			[
+				"usepac",
+				"\\usepackage{package}	latex-document"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/fredrikmeyer/Dropbox/Programmering/Python/assignment2_1.py",
+			"settings":
+			{
+				"buffer_size": 1386,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/fredrikmeyer/Dropbox/Programmering/Python/assignment2_11.py",
+			"settings":
+			{
+				"buffer_size": 1107,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/fredrikmeyer/Dropbox/Programmering/Python/algorithms/kargermincut.py",
+			"settings":
+			{
+				"buffer_size": 3629,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/fredrikmeyer/Dropbox/Programmering/Python/algorithms/square.txt",
+			"settings":
+			{
+				"buffer_size": 27,
+				"line_ending": "Unix",
+				"name": "1 2 3 4"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 353.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Disable Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"packe",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": true
+	},
+	"file_history":
+	[
+		"/Users/fredrikmeyer/Dropbox/Programmering/Python/testCase1.txt",
+		"/Users/fredrikmeyer/Dropbox/Programmering/Python/quicksort.py",
+		"/Users/fredrikmeyer/Dropbox/Programmering/Python/algorithms/rselect.py",
+		"/Users/fredrikmeyer/exercism/python/bob/bob.py",
+		"/Users/fredrikmeyer/Dropbox/Programmering/Python/numberofinversions.py",
+		"/Users/fredrikmeyer/Dropbox/Programmering/Python/mergesort.py",
+		"/Users/fredrikmeyer/Dropbox/Programmering/Python/reactiontime/reactiontime.py",
+		"/Users/fredrikmeyer/Dropbox/Programmering/Python/pygame2.py",
+		"/Users/fredrikmeyer/Dropbox/Programmering/Python/laregui.py",
+		"/Users/fredrikmeyer/exercism/python/bob/bob_test.py",
+		"/Users/fredrikmeyer/exercism/python/word-count/wordcount.py",
+		"/Users/fredrikmeyer/exercism/python/gigasecond/gigasecond.py",
+		"/Users/fredrikmeyer/exercism/python/gigasecond/gigasecond_test.py",
+		"/Users/fredrikmeyer/exercism/python/word-count/word_count_test.py",
+		"/Users/fredrikmeyer/exercism/python/hamming/hamming.py",
+		"/Users/fredrikmeyer/exercism/python/hamming/hamming_test.py",
+		"/Users/fredrikmeyer/exercism/python/rna-transcription/rna_transcription_test.py",
+		"/Users/fredrikmeyer/exercism/python/rna-transcription/dna.py",
+		"/Users/fredrikmeyer/exercism/python/pangram/pangram_test.py",
+		"/Users/fredrikmeyer/exercism/python/pangram/pangram.py",
+		"/Users/fredrikmeyer/Dropbox/Programmering/Python/memoryboard.py",
+		"/Users/fredrikmeyer/Library/Application Support/Sublime Text 2/Packages/Python/Python.sublime-build",
+		"/Users/fredrikmeyer/Library/Application Support/Sublime Text 2/Packages/User/untitled.sublime-build",
+		"/Users/fredrikmeyer/Dropbox/kreativitet/nordfjordeid",
+		"/Users/fredrikmeyer/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/fredrikmeyer/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/fredrikmeyer/Dropbox/Programmering/Ruby/ruby2.rb",
+		"/Users/fredrikmeyer/Dropbox/Programmering/Java/FirstProgram.java",
+		"/Users/fredrikmeyer/Dropbox/Programmering/Java/P01.java",
+		"/Users/fredrikmeyer/Dropbox/Programmering/Java/P31.java",
+		"/Users/fredrikmeyer/Dropbox/Programmering/Java/Tests.java",
+		"/Users/fredrikmeyer/Dropbox/Programmering/Java/TestJunit.java",
+		"/Users/fredrikmeyer/Dropbox/kreativitet/tenkfort.txt",
+		"/Users/fredrikmeyer/Dropbox/kreativitet/psykedelisk",
+		"/Users/fredrikmeyer/Dropbox/kreativitet/En ordinær dag",
+		"/Users/fredrikmeyer/Dropbox/kreativitet/lukterregn.txt",
+		"/Users/fredrikmeyer/Dropbox/kreativitet/Det er høst",
+		"/Users/fredrikmeyer/Dropbox/kreativitet/tidengaroggar",
+		"/Users/fredrikmeyer/Dropbox/kreativitet/ingenprotest",
+		"/Users/fredrikmeyer/Dropbox/matematikknotater/notater_nordfjordeid.tex",
+		"/Users/fredrikmeyer/Dropbox/matematikknotater/mystyle.sty",
+		"/Users/fredrikmeyer/Dropbox/matematikknotater/notater_ogrady.tex",
+		"/Users/fredrikmeyer/Dropbox/Programmering/Python/parametricequation.py",
+		"/Users/fredrikmeyer/Dropbox/Programmering/Ruby/projeuler51.rb",
+		"/Users/fredrikmeyer/Documents/Musikken lever, jeg veti kkeh vorfor den lever, me",
+		"/Users/fredrikmeyer/Dropbox/Programmering/C/helloworld.c",
+		"/Users/fredrikmeyer/Dropbox/Programmering/SmithNormalForm/ntheory.py",
+		"/Users/fredrikmeyer/Dropbox/matematikknotater/notater_szendroi.tex",
+		"/Users/fredrikmeyer/Dropbox/matematikknotater/bibliografi.bib",
+		"/Users/fredrikmeyer/Dropbox/matematikknotater/thesis.tex",
+		"/Users/fredrikmeyer/Dropbox/Programmering/SmithNormalForm/smithnormalform.py",
+		"/Users/fredrikmeyer/Dropbox/Programmering/SmithNormalForm/matrices.py",
+		"/Applications/Brain Workshop.app/Contents/Info.plist",
+		"/Applications/Brain Workshop.app/Contents/Resources/lib/python2.6/config/Setup.config",
+		"/Applications/Brain Workshop.app/Contents/Resources/lib/python2.6/config/Setup.local",
+		"/Users/fredrikmeyer/Dropbox/matematikknotater/fingenabelian.tex",
+		"/Users/fredrikmeyer/Dropbox/matematikknotater/resultssummary.tex",
+		"/Users/fredrikmeyer/Dropbox/Programmering/ProjectEuler/primes.py",
+		"/Users/fredrikmeyer/Dropbox/Programmering/ProjectEuler/alg.py",
+		"/Users/fredrikmeyer/Dropbox/Programmering/ProjectEuler/linalg.py",
+		"/Users/fredrikmeyer/Dropbox/Programmering/ProjectEuler/algebrapoly.py",
+		"/Users/fredrikmeyer/Documents/Processing/.gitignore",
+		"/Users/fredrikmeyer/Dropbox/matematikknotater/ordliste.tex",
+		"/Users/fredrikmeyer/Dropbox/matematikknotater/usefulresults.bib",
+		"/Users/fredrikmeyer/Dropbox/matematikknotater/usefulresults.tex",
+		"/Users/fredrikmeyer/Dropbox/matematikknotater/smaanotater.tex",
+		"/Users/fredrikmeyer/Dropbox/matematikknotater/latexkurs.tex",
+		"/Users/fredrikmeyer/Dropbox/Programmering/Haskell/tester.hs",
+		"/Users/fredrikmeyer/Dropbox/Programmering/Ruby/mer.rb",
+		"/Users/fredrikmeyer/Dropbox/Programmering/Ruby/classtree.rb",
+		"/Users/fredrikmeyer/Dropbox/matematikknotater/letterofrec.tex",
+		"/Users/fredrikmeyer/Dropbox/motivisk/Versjon 3!!!/l5.tex",
+		"/Users/fredrikmeyer/Dropbox/matematikknotater/exercises.tex",
+		"/Users/fredrikmeyer/Dropbox/motivisknotater/main.tex",
+		"/Users/fredrikmeyer/Dropbox/motivisknotater/mystyle.sty",
+		"/Users/fredrikmeyer/Dropbox/motivisknotater/l5.tex",
+		"/Users/fredrikmeyer/Dropbox/motivisknotater/l6.tex",
+		"/Users/fredrikmeyer/Dropbox/motivisknotater/ref.bib",
+		"/Users/fredrikmeyer/Dropbox/motivisknotater/l4.tex",
+		"/Users/fredrikmeyer/Dropbox/matematikknotater/1140tallteori.tex"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\\n",
+			"}",
+			"{",
+			"period map",
+			"line",
+			"apply",
+			"\n		",
+			"lengthFirstCol",
+			"know",
+			"dog",
+			"know",
+			"Friday",
+			"fast",
+			"cat",
+			"calS",
+			"\\cat",
+			"cat",
+			"H_0",
+			"uniq"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"]",
+			"["
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/fredrikmeyer/Dropbox/Programmering/Python/assignment2_1.py",
+					"settings":
+					{
+						"buffer_size": 1386,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1292,
+								1210
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/fredrikmeyer/Dropbox/Programmering/Python/assignment2_11.py",
+					"settings":
+					{
+						"buffer_size": 1107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								602,
+								602
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 562.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/fredrikmeyer/Dropbox/Programmering/Python/algorithms/kargermincut.py",
+					"settings":
+					{
+						"buffer_size": 3629,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								556,
+								556
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/fredrikmeyer/Dropbox/Programmering/Python/algorithms/square.txt",
+					"settings":
+					{
+						"buffer_size": 27,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27,
+								27
+							]
+						],
+						"settings":
+						{
+							"auto_name": "1 2 3 4",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 158.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 285.0,
+	"status_bar_visible": true
+}
