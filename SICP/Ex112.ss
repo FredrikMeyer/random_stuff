@@ -1,0 +1,7 @@
+(define (binom p q)
+	(cond ((= q 0) 1)
+		  ((< q 0) 0)
+		  ((> q p) 0)
+		  (else (+ (binom (- p 1) (- q 1)) (binom (- p 1) q)))
+		  )
+	)
