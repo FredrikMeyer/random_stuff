@@ -1,0 +1,19 @@
+#lang racket
+
+;; computes the product (op x y) for all x in seq1 and y in seq2
+(define (all-products op seq1 seq2)
+  (define (all-prods-iter prods s)
+    (if (empty? s)
+        prods
+        (let ((temp (cdr s)))
+          (append prods (map (lambda (x) (op x (car s))) seq1)
+                  (all-prods-iter prods temp)
+                  )
+          )
+        )
+    )
+  (all-prods-iter '() seq2)
+  )
+
+(foldl + 0 (all-products (lambda (x y) (if (= x y) 0 (* x y)))
+                                (build-list 101 values) (build-list 101 values)))

@@ -1,0 +1,96 @@
+#lang scheme
+(require "usefuls.rkt")
+
+
+(define (queens board-size)
+  (define (queen-cols k)
+    (if (= k 0)
+        (list empty-board)
+        (filter
+         (lambda (positions) (safe? k positions))
+         (flatmap
+          (lambda (rest-of-queens)
+            (map (lambda (new-row)
+                   (adjoin-position new-row k rest-of-queens))
+                 (enumerate-interval 1 board-size)))
+          (queen-cols (- k 1))))))
+  (queen-cols board-size)
+  )
+
+(define empty-board
+  null
+  )
+
+
+;; check if the queen in the k'th column is safe
+;; from preceding quuens
+(define (safe? k positions)
+  (if (= (length positions) 0) true
+      (and (safe-rows positions) (safe-cols positions) (safe-diagonals positions))
+      )
+  )
+
+;; new-row is a number between 1 and k
+;; rest-of-queens is a bord position, represented
+;; as a list of length k lists
+;; output is a board position of width k width 
+(define (adjoin-position new-row k rest-of-queens)
+  (cons (make-column (+ new-row 1) k) rest-of-queens)
+  )
+
+;; make a column of size k with a queen (1) in pos pos (pos  starts counting at 0)
+(define (make-column pos k)
+  (define (make-column-iter i)
+    (if (= i k)
+           '()
+           (let ((a (if (= i pos) 1 0)))
+             (cons a (make-column-iter (+ i 1)))
+             )
+           )
+        )
+  (make-column-iter 0)
+  )
+
+(define (safe-rows positions)
+  (if (empty? positions) true
+      (if (> (accumulate + 0 (car positions)) 1) false
+          (safe-rows (cdr positions))
+          )
+      )
+  )
+
+(define (safe-cols positions)
+  (if (= (length (car positions)) 0) true
+      (if (> (accumulate + 0 (map (lambda (x) (car x)) positions)) 1) false
+          (safe-cols (map (lambda (x) (cdr x)) positions))
+          )
+      )
+  )
+
+(define (safe-diagonals positions)
+  (define (diagonal-no k)
+    (if (= k 0) (car (car positions))
+        (+ (select (car positions) k) (diagonal-no (- k 1)))
+    )
+    )
+  (let ((diagsums (map diagonal-no (enumerate-interval 0 (- (length poss) 1)))))
+    (define (check-diagsums ds)
+      (cond ((empty? ds) true)
+            ((> (car ds) 1) false)
+            (else (check-diagsums (cdr ds)))
+            )
+      )
+    (check-diagsums diagsums)
+    )
+  )
+
+
+;; return elt no k in sequence
+(define (select seq k)
+  (if (= k 0) (car seq)
+      (select (cdr seq) (- k 1))
+      )
+  )
+
+(define poss (list (list 1 0) (list 1 0)))
+(define poss2 (list (list 1 1) (list 1 0)))           

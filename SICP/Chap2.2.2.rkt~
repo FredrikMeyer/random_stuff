@@ -1,0 +1,34 @@
+#lang scheme
+
+(define (count-leaves x)
+  (cond ((empty? x) 0)
+        ((not (pair? x)) 1)
+        (else
+         (+ (count-leaves (car x)) (count-leaves (cdr x)))
+         )
+        )
+  )
+
+(define (reverse x)
+  (define (reverse-iter x y)
+    (if (null? x) y
+        (reverse-iter (cdr x) (cons (car x) y))
+        )
+    )
+  (reverse-iter x '())
+  )
+
+(define (deep-reverse x)
+  (define (reverse-iter x y)
+    (if (null? x) y
+        (cond ((pair? (car x))
+               (reverse-iter (cdr x) (cons (reverse-iter (car x) '()) y)))
+              (else
+               (reverse-iter (cdr x) (cons (car x) y)))
+              )
+        )
+    )
+  (reverse-iter x '())
+  )
+
+(define x (cons (list 1 2) (list 3 4)))
